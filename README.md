@@ -1,55 +1,34 @@
-# Mintlify Starter Kit
+# MCP Creative Guide
 
-Use the starter kit to get your docs deployed and ready to customize.
+Practical setup notes and a free prompt builder for the hosted ElevenLabs MCP in ChatGPT, Claude, and Cursor.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## Free ElevenLabs MCP prompt builder
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+**https://mcp-creative-guide-o4hary.v2.appdeploy.ai/**
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+Build ready-to-copy prompts for:
 
-## AI-assisted writing
+- voiceovers
+- music
+- short-form video
+- images
+- dubbing and localization
 
-Set up your AI coding tool to work with Mintlify:
+## Hosted MCP endpoint
 
-```bash
-npx skills add https://mintlify.com/docs
+```text
+https://api.elevenlabs.io/v1/mcp
 ```
 
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
+## Guides
 
-See the [AI tools guides](/ai-tools) for tool-specific setup.
+- [ElevenLabs MCP overview](./elevenlabs-mcp.mdx)
+- [ElevenLabs MCP for ChatGPT](./elevenlabs-mcp-chatgpt.mdx)
+- [ElevenLabs MCP for Claude](./elevenlabs-mcp-claude.mdx)
+- [ElevenLabs MCP for Cursor](./elevenlabs-mcp-cursor.mdx)
 
-## Development
+## ElevenLabs
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+[Try ElevenLabs](https://try.elevenlabs.io/uelg6bq8ike7)
 
-```
-npm i -g mint
-```
-
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```
-mint dev
-```
-
-View your local preview at `http://localhost:3000`.
-
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+> Affiliate disclosure: the ElevenLabs link is an affiliate link. A qualifying purchase may generate a commission for the publisher at no additional cost to the buyer.
