@@ -13,7 +13,10 @@
       {
         "group": "MCP Guides",
         "pages": [
-          "elevenlabs-mcp"
+          "elevenlabs-mcp",
+          "elevenlabs-mcp-chatgpt",
+          "elevenlabs-mcp-claude",
+          "elevenlabs-mcp-cursor"
         ]
       },
       {
